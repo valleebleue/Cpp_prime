@@ -11,7 +11,7 @@ int cal_population(){
     cin>> whole_world;
     cout<<"Enter US population: " <<endl;
     cin>> population_US;
-    percentage = population_US/whole_world *100;
+    percentage = population_US * 1.0/whole_world *100;
     cout<< " The population of us is " << percentage << "% of world population " <<endl;
 }
 

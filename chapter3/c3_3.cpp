@@ -14,9 +14,9 @@ int cal_latitude(){
     cin>> minutes_arc;
     cout<<"Finally, enter the seconds of arc: " <<endl;
     cin>> seconds_arc;
-    degree_calculated = degree + minutes_arc/factor_change + seconds_arc/factor_change^2;
+    degree_calculated = degree + minutes_arc/factor_change + seconds_arc/(factor_change * factor_change);
     cout<< degree << " of degree" << minutes_arc << " minutes " <<seconds_arc <<" seconds " << " = " << degree_calculated <<" degrees "<<endl;
 }
 
 int main(){
-    cal_latitude();
+    cal_latitude();}

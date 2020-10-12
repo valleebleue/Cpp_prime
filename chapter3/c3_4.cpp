@@ -15,10 +15,10 @@ int cal_time(){
     cout<<"Enter the number of seconds: " <<endl;
     cin>> total_seconds;
     cout<<"Next, enter the minutes of arc: " <<endl;
-    days = total_seconds/(factor_change^2 * 24);
-    left_for_hours = total_seconds%(factor_change^2 * 24);
-    hours = left_for_hours/(factor_change^2);
-    left_for_mins = left_for_hours%(factor_change^2);
+    days = total_seconds/(factor_change *factor_change * 24);
+    left_for_hours = total_seconds%(factor_change*factor_change * 24);
+    hours = left_for_hours/(factor_change*factor_change);
+    left_for_mins = left_for_hours%(factor_change*factor_change);
     mins = left_for_mins/factor_change;
     left_for_secs = left_for_mins%factor_change;
 
