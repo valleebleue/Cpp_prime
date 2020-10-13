@@ -5,7 +5,7 @@
 
 using namespace std;
 
-struct inflatable
+struct Candybar
 {
     string marque;
     float weight;
@@ -14,5 +14,9 @@ struct inflatable
 
 int main()
 {
-    inflatable Candy = {"MochaMunch", 2.3, 350};
+    Candybar snack = {"MochaMunch", 2.3, 350};
+    cout << "snack mark is :" << snack.marque;
+    cout << "snack weight is :" << snack.weight;
+    cout << "snack calarie is :" << snack.calarie; 
+
 }
