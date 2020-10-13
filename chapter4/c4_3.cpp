@@ -4,9 +4,9 @@
 using namespace std;
 
 int main(){
-    cstring last_name;
-    cstring first_name;
-    cstring whole_name;
+    string last_name;
+    string first_name;
+    string whole_name;
     cout << "Please enter your last name : ";
     cin >> last_name;
     cout << "Please enter your first name : ";

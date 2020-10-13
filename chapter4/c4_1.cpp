@@ -7,8 +7,8 @@ int question_reponce(){
     char first_name[artsize];
     char last_name[artsize];
     int age;
-    char grade[1];
-    char grade_actual[1];
+    char grade;
+    char grade_actual;
 
 
     cout<<"What is your first name: " <<endl;
