@@ -1,0 +1,1 @@
+add_executable(c5_1 c5_1.cpp)
