@@ -14,18 +14,11 @@ struct pizza
 
 int main()
 {
-    
-    string name_1;
-    int diameter_1;
-    float weight_1;
-    string name_2;
-    int diameter_2;
-    float weight_2;
-    string name_3;
-    int diameter_3;
-    float weight_3;   
+    pizza *pizza_pointer = new pizza[3];
+
+ 
     cout << "Enter pizza_1's company name :" << endl; 
-    cin >> name_1;
+    cin >> pizza_pointer[0] -> company_name;
     cout << "Enter pizza_1's diameter in interger :" << endl; 
     cin >> diameter_1;
     cout << "Enter pizza_1's weight in float" << endl;
@@ -42,7 +35,7 @@ int main()
     cin >> diameter_3;
     cout << "Enter pizza_3's weight in float" << endl;
     cin >> weight_3;  
-    pizza *pizza_pointer = new pizza[3];    
+        
     pizza batch_pizza_3[3] = {{name_1,diameter_1,weight_1},{name_2,diameter_2,weight_2},{name_3,diameter_3,weight_3}};
     cout << "first_pizza's company name is: " << batch_pizza_3[0].name_of_company << endl;
     cout << "first_pizza's diameter is: " << batch_pizza_3[0].diameter << endl;
