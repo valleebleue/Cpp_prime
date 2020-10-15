@@ -18,3 +18,4 @@ int main(){
     };
     cout << "first company is :" << snack[1].mark << "weight is :" << snack[1].diameter << "calerie is :" << snack[1].weight << endl; 
     cout << "second company is :" << snack[2].mark << "weight is :" << snack[2].diameter << "calerie is :" << snack[2].weight << endl; 
+}

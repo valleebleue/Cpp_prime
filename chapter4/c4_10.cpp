@@ -4,17 +4,18 @@ using namespace std;
 
 int main()
 {
+    array<float,3> scores;
     float score_1;
     float score_2;
     float score_3;
     float mean_a3;
     cout << "enter the first score :" <<endl;
-    cin >> score_1;
+    cin >> scores[0];
     cout << "enter the second score :" <<endl;
-    cin >> score_2;  
+    cin >> scores[1];  
     cout << "enter the third score :" <<endl;
-    cin >> score_3;  
-    array<float,3> a3 = {score_1,score_2,score_3};
-    mean_a3 = (a3[0] + a3[1] + a3[2]) / 3;
+    cin >> scores[2];  
+
+    mean_a3 = (scores[0] + scores[1] + scores[2]) / 3;
     cout << "the mean of three scores is : " << mean_a3 << endl;    
 };

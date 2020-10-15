@@ -18,34 +18,34 @@ int main()
 
  
     cout << "Enter pizza_1's company name :" << endl; 
-    cin >> pizza_pointer[0] -> company_name;
+    cin >> pizza_pointer[0].company_name;
     cout << "Enter pizza_1's diameter in interger :" << endl; 
-    cin >> diameter_1;
+    cin >> pizza_pointer[0].diameter;
     cout << "Enter pizza_1's weight in float" << endl;
-    cin >> weight_1;
+    cin >> pizza_pointer[0].weight;
     cout << "Enter pizza_2's company name :" << endl; 
-    cin >> name_2;
+    cin >> pizza_pointer[1].company_name;
     cout << "Enter pizza_2's diameter in interger :" << endl; 
-    cin >> diameter_2;
+    cin >> pizza_pointer[1].diameter;
     cout << "Enter pizza_2's weight in float" << endl;
-    cin >> weight_2;  
+    cin >> pizza_pointer[1].weight;  
     cout << "Enter pizza_3's company name :" << endl; 
-    cin >> name_3;
+    cin >> pizza_pointer[2].company_name;
     cout << "Enter pizza_3's diameter in interger :" << endl; 
-    cin >> diameter_3;
+    cin >> pizza_pointer[2].diameter;
     cout << "Enter pizza_3's weight in float" << endl;
-    cin >> weight_3;  
+    cin >> pizza_pointer[2].weight;  
         
-    pizza batch_pizza_3[3] = {{name_1,diameter_1,weight_1},{name_2,diameter_2,weight_2},{name_3,diameter_3,weight_3}};
-    cout << "first_pizza's company name is: " << batch_pizza_3[0].name_of_company << endl;
-    cout << "first_pizza's diameter is: " << batch_pizza_3[0].diameter << endl;
-    cout << "first_pizza's weight is: " << batch_pizza_3[0].weight << endl;
-    cout << "second_pizza's company name is: " << batch_pizza_3[1].name_of_company << endl;
-    cout << "second_pizza's diameter is: " << batch_pizza_3[1].diameter << endl;
-    cout << "second_pizza's weight is: " << batch_pizza_3[1].weight << endl;   
-    cout << "third_pizza's company name is: " << batch_pizza_3[2].name_of_company << endl;
-    cout << "third_pizza's diameter is: " << batch_pizza_3[2].diameter << endl;
-    cout << "third_pizza's weight is: " << batch_pizza_3[2].weight << endl;      
+
+    cout << "first_pizza's company name is: " << pizza_pointer[0].company_name << endl;
+    cout << "first_pizza's diameter is: " << pizza_pointer[0].diameter << endl;
+    cout << "first_pizza's weight is: " << pizza_pointer[0].weight << endl;
+    cout << "second_pizza's company name is: " << pizza_pointer[1].company_name << endl;
+    cout << "second_pizza's diameter is: " << pizza_pointer[1].diameter << endl;
+    cout << "second_pizza's weight is: " << pizza_pointer[1].weight << endl;   
+    cout << "third_pizza's company name is: " << pizza_pointer[2].company_name << endl;
+    cout << "third_pizza's diameter is: " << pizza_pointer[2].diameter << endl;
+    cout << "third_pizza's weight is: " << pizza_pointer[2].weight << endl;      
     
 };
 
